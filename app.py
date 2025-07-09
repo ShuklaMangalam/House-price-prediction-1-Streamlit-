@@ -4,7 +4,7 @@ import numpy as np
 model = joblib.load("model.pkl")
 st.title("House Price Prediction")
 st.divider()
-st.write("this ml app helps you predict the cost of house you want to purchase according different parameterw")
+st.write("This ml app helps you predict the cost of house you want to purchase according different parameters")
 
 st.divider()
 bedrooms= st.number_input("Number of bedrooms", min_value = 0,value= 0)
